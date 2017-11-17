@@ -1,0 +1,55 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+
+<html>
+<head>
+<meta name="generator" content="HTML Tidy for Linux (vers 25 March 2009), see www.w3.org">
+<style type="text/css">
+
+div {
+  width: 100px;
+  height: 100px;
+  background: red;
+  position: relative;
+  -webkit-animation: myfirst 5s infinite; /* Safari 4.0 - 8.0 */
+  -webkit-animation-direction: alternate; /* Safari 4.0 - 8.0 */
+  animation: myfirst 3s infinite;
+  animation-direction: alternate;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes myfirst {
+  0%   {background: red; left: 0px; top: 0px;}
+  25%  {background: yellow; left: 200px; top: 0px;}
+  50%  {background: blue; left: 200px; top: 200px;}
+  75%  {background: green; left: 0px; top: 200px;}
+  100% {background: red; left: 0px; top: 0px;}
+}
+
+@keyframes myfirst {
+    0%   {background: #000000; left: 0px; top: 0px;}
+   10%   {background: #550000; left: 0px; top: 0px;}
+   20%   {background: #660000; left: 0px; top: 0px;}
+   40%   {background: #770000; left: 0px; top: 0px;}
+   50%   {background: #880000; left: 0px; top: 0px;}
+   60%   {background: #990000; left: 0px; top: 0px;}
+   80%   {background: #aa0000; left: 0px; top: 0px;}
+  100%   {background: #bb0000; left: 0px; top: 0px;}
+   80%   {background: #aa0000; left: 0px; top: 0px;}
+   60%   {background: #990000; left: 0px; top: 0px;}
+   50%   {background: #880000; left: 0px; top: 0px;}
+   40%   {background: #770000; left: 0px; top: 0px;}
+   20%   {background: #660000; left: 0px; top: 0px;}
+   10%   {background: #550000; left: 0px; top: 0px;}
+    0%   {background: #000000; left: 0px; top: 0px;}
+ }
+</style>
+
+<title></title>
+</head>
+
+<body>
+  <p>Do the animation once, then do the animation backwards:</p>
+
+  <p><strong>Note:</strong> The animation-direction property is not supported in Internet Explorer 9 and earlier versions.</p>
+</body>
+</html>

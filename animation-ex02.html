@@ -1,0 +1,72 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html>
+<head>
+<meta name="generator" content=
+"HTML Tidy for Linux (vers 25 March 2009), see www.w3.org">
+<style type="text/css">
+ 
+#one {    
+    width: 100px;
+    height: 100px;
+    background: red;
+    position: absolute;
+    animation: red 5s infinite;
+    animation-direction: alternate;
+}
+#two {
+    width: 100px;
+    height: 100px;
+    background: blue;
+    position: absolute;
+    animation: blue 5s infinite;
+    animation-direction: alternate;
+}
+#three {
+    width: 100px;
+    height: 100px;
+    background: green;
+    position: absolute;
+    animation: green 5s infinite;
+    animation-direction: alternate;
+}
+#four {
+    width: 100px;
+    height: 100px;
+    background: yellow;
+    position: absolute;
+    animation: yellow 5s infinite;
+    animation-direction: alternate;
+}
+@keyframes red {
+    0% {top: 150px; left: 0px;}
+    100% {top: 150px; left: 200px;}
+}
+@keyframes blue {
+    0% {top: 150px; left: 200px;}
+    100% {top: 150px; left: 0px;}
+}
+@keyframes green {
+    0% {top: 50px; left: 100px;}
+    100% {top: 250px; left: 100px;}
+}
+@keyframes yellow {
+    0% {top: 250px; left: 100px;}
+    100% {top: 50px; left: 100px;}
+                    
+}
+</style>
+<title></title>
+</head>
+<body>
+<p>Specify a name for the @keyframes animation.</p>
+<p><strong>Note:</strong> The animation-name property is not
+supported in Internet Explorer 9 and earlier versions.</p>
+<div id="one"></div>
+<div id="two"></div>
+<div id="three"></div>
+<div id="four"></div>
+<p><b>Note:</b> Always specify the animation-duration property.
+Otherwise the duration is 0, and the animation will not be
+played.</p>
+</body>
+</html>
